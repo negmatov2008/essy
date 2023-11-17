@@ -46,3 +46,14 @@ body{
     color: #7C93C3;
     margin-top: 2rem;
 }
+@media screen and (max-width:426px) {
+    .container{
+        max-width: 95%;
+    }
+    .top h3 {
+        font-size: 1.5rem;
+    }
+    .top span{
+        font-size: 1.2rem;
+    }
+}
